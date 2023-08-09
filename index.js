@@ -34,6 +34,12 @@ function makeSound(key){
 }
 
 
+document.querySelectorAll.forEach(button => {
+    addEventListener("click", function(event){
+        makesound(event.innerHTML);
+    })
+    
+});
 
 
 
